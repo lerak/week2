@@ -1,0 +1,27 @@
+how does a class mixin module ?
+  include modulename
+
+What's the difference between class variables and instance variables?
+  you can only use class within the class
+
+What does attr_accessor do?
+  its a shortcut to make getters and setters 
+
+How would you describe this expression: Dog.some_method
+  some method on the Dog class is called 
+
+In Ruby, what's the difference between subclassing and mixing in modules?      
+  with subclassing you inheret all the methods , while with modules you can select more precise in which classes you want to use the methods from your module .
+
+Given that I can instantiate a user like this: User.new('Bob'), what would the initialize method look like for the User class?
+Class User
+  def initialize(name)
+    @name=name
+  end
+end
+
+Can you call instance methods of the same class from other instance methods in that class?
+   yes you can 
+
+When you get stuck, what's the process you use to try to trap the error?
+   you can use pry 
